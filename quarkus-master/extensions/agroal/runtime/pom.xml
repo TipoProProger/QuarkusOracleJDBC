@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>quarkus-agroal-parent</artifactId>
+        <groupId>io.quarkus</groupId>
+        <version>999-SNAPSHOT</version>
+        <relativePath>../</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>quarkus-agroal</artifactId>
+    <name>Quarkus - Agroal - Runtime</name>
+
+    <dependencies>
+        <dependency>
+            <groupId>io.quarkus</groupId>
+            <artifactId>quarkus-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.quarkus</groupId>
+            <artifactId>quarkus-arc</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.quarkus</groupId>
+            <artifactId>quarkus-narayana-jta</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.substratevm</groupId>
+            <artifactId>svm</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss.narayana.jta</groupId>
+            <artifactId>narayana-jta</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss.narayana.jts</groupId>
+            <artifactId>narayana-jts-integration</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss.spec.javax.transaction</groupId>
+            <artifactId>jboss-transaction-api_1.2_spec</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>io.agroal</groupId>
+            <artifactId>agroal-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.agroal</groupId>
+            <artifactId>agroal-narayana</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.agroal</groupId>
+            <artifactId>agroal-pool</artifactId>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>io.quarkus</groupId>
+                <artifactId>quarkus-bootstrap-maven-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <annotationProcessorPaths>
+                        <path>
+                            <groupId>io.quarkus</groupId>
+                            <artifactId>quarkus-extension-processor</artifactId>
+                            <version>${project.version}</version>
+                        </path>
+                    </annotationProcessorPaths>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

@@ -1,0 +1,30 @@
+package io.quarkus.undertow.test;
+
+import static org.hamcrest.Matchers.is;
+
+import javax.servlet.ServletContainerInitializer;
+
+import org.jboss.shrinkwrap.api.ShrinkWrap;
+import org.jboss.shrinkwrap.api.spec.JavaArchive;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.RegisterExtension;
+
+import io.quarkus.test.QuarkusUnitTest;
+import io.restassured.RestAssured;
+
+public class ServletContainerInitializerTestCase {
+
+    @RegisterExtension
+    static QuarkusUnitTest runner = new QuarkusUnitTest()
+            .setArchiveProducer(() -> ShrinkWrap.create(JavaArchive.class)
+                    .addAsServiceProvider(ServletContainerInitializer.class, TestSCI.class)
+                    .addClasses(SCIInterface.class, SCIImplementation.class, TestSCI.class));
+
+    @Test
+    public void testSci() {
+        RestAssured.when().get("/sci").then()
+                .statusCode(200)
+                .body(is("io.quarkus.undertow.test.SCIImplementation"));
+    }
+
+}

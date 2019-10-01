@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>quarkus-infinispan-client-parent</artifactId>
+        <groupId>io.quarkus</groupId>
+        <version>999-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>quarkus-infinispan-client</artifactId>
+    <name>Quarkus - Infinispan - Client - Runtime</name>
+
+    <dependencies>
+        <dependency>
+            <groupId>io.quarkus</groupId>
+            <artifactId>quarkus-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.quarkus</groupId>
+            <artifactId>quarkus-arc</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.quarkus</groupId>
+            <artifactId>quarkus-caffeine</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.quarkus</groupId>
+            <artifactId>quarkus-netty</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.wildfly.security</groupId>
+            <artifactId>wildfly-elytron-sasl-plain</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.wildfly.security</groupId>
+            <artifactId>wildfly-elytron-sasl-digest</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.wildfly.security</groupId>
+            <artifactId>wildfly-elytron-sasl-external</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.wildfly.security</groupId>
+            <artifactId>wildfly-elytron-sasl-oauth2</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.wildfly.security</groupId>
+            <artifactId>wildfly-elytron-sasl-scram</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.infinispan</groupId>
+            <artifactId>infinispan-client-hotrod</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.jboss.marshalling</groupId>
+                    <artifactId>jboss-marshalling-osgi</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>org.infinispan</groupId>
+            <artifactId>infinispan-remote-query-client</artifactId>
+        </dependency>
+        <!-- This dependency is required as otherwise the RemoteCacheImpl substitution fails-->
+        <dependency>
+            <groupId>org.infinispan</groupId>
+            <artifactId>infinispan-query-dsl</artifactId>
+        </dependency>
+        <!-- Will allow projects to run annotation processor -->
+        <dependency>
+            <groupId>org.infinispan.protostream</groupId>
+            <artifactId>protostream-processor</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.substratevm</groupId>
+            <artifactId>svm</artifactId>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>io.quarkus</groupId>
+                <artifactId>quarkus-bootstrap-maven-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <annotationProcessorPaths>
+                        <path>
+                            <groupId>io.quarkus</groupId>
+                            <artifactId>quarkus-extension-processor</artifactId>
+                            <version>${project.version}</version>
+                        </path>
+                    </annotationProcessorPaths>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
