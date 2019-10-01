@@ -1,0 +1,877 @@
+Apache Maven 3.6.1 (d66c9c0b3152b2e69ee9bac180bb8fcc8e6af555; 2019-04-04T22:00:29+03:00)
+Maven home: /home/michael/.m2/wrapper/dists/apache-maven-3.6.1-bin/38pn40mp89t5c94bjdbeod370m/apache-maven-3.6.1
+Java version: 1.8.0_212, vendor: Oracle Corporation, runtime: /usr/lib/jvm/java-8-openjdk-amd64/jre
+Default locale: ru_RU, platform encoding: UTF-8
+OS name: "linux", version: "4.13.0-38-generic", arch: "amd64", family: "unix"
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.annotation.* < plexus.core
+[DEBUG]   Imported: javax.annotation.security.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.inject.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.util.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.fusesource.jansi.* < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.event.* < plexus.core
+[DEBUG]   Imported: org.slf4j.helpers.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[INFO] Error stacktraces are turned on.
+[DEBUG] Message scheme: color
+[DEBUG] Message styles: debug info warning error success failure strong mojo project
+[DEBUG] Reading global settings from /home/michael/.m2/wrapper/dists/apache-maven-3.6.1-bin/38pn40mp89t5c94bjdbeod370m/apache-maven-3.6.1/conf/settings.xml
+[DEBUG] Reading user settings from /home/michael/.m2/settings.xml
+[DEBUG] Reading global toolchains from /home/michael/.m2/wrapper/dists/apache-maven-3.6.1-bin/38pn40mp89t5c94bjdbeod370m/apache-maven-3.6.1/conf/toolchains.xml
+[DEBUG] Reading user toolchains from /home/michael/.m2/toolchains.xml
+[DEBUG] Using local repository at /home/michael/.m2/repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for /home/michael/.m2/repository
+[INFO] Scanning for projects...
+[DEBUG] Extension realms for project org.acme:jdbctest:jar:1.0-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-bom:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-parent:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.acme:jdbctest:jar:1.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.systemPath' for io.quarkus:quarkus-jdbc-oracle:jar should use a variable instead of a hard-coded path /home/michael/.m2/repository/io/quarkus/quarkus-jdbc-oracle/999-SNAPSHOT/projects/quarkus-jdbc-oracle-999-SNAPSHOT.jar @ line 38, column 21
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: io.quarkus:quarkus-jdbc-oracle:jar -> version 8 vs 999-SNAPSHOT @ line 40, column 17
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[DEBUG] Resolving plugin prefix quarkus from [org.apache.maven.plugins, org.codehaus.mojo]
+[DEBUG] Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the metadata io.quarkus:quarkus-bom-deployment:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the metadata io.quarkus:quarkus-bom:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Resolved plugin prefix quarkus to io.quarkus:quarkus-maven-plugin from POM org.acme:jdbctest:jar:1.0-SNAPSHOT
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: org.acme:jdbctest:jar:1.0-SNAPSHOT
+[DEBUG] Tasks:   [compile, quarkus:dev]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] -------------------------< org.acme:jdbctest >--------------------------
+[INFO] Building jdbctest 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Resolving plugin prefix quarkus from [org.apache.maven.plugins, org.codehaus.mojo]
+[DEBUG] Resolved plugin prefix quarkus to io.quarkus:quarkus-maven-plugin from POM org.acme:jdbctest:jar:1.0-SNAPSHOT
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       org.acme:jdbctest:1.0-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [compile, compile+runtime]
+[DEBUG] Repositories (dependencies): [maven.oracle.com (https://maven.oracle.com, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.6:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <supportMultiLineFiltering default-value="false">${maven.resources.supportMultiLineFiltering}</supportMultiLineFiltering>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <classpathElements default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution>${mojoExecution}</mojoExecution>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <projectArtifact default-value="${project.artifact}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skipMain>${maven.main.skip}</skipMain>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.5">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">${maven.compiler.target}</target>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+  <mavenSession default-value="${session}"/>
+  <session default-value="${session}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          io.quarkus:quarkus-maven-plugin:999-SNAPSHOT:dev (default-cli)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildDir default-value="${project.build.directory}"/>
+  <debug default-value="${debug}"/>
+  <deleteDevJar default-value="TRUE"/>
+  <jvmArgs default-value="${jvm.args}"/>
+  <noDeps default-value="${noDeps}"/>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <preventnoverify default-value="${preventnoverify}"/>
+  <project default-value="${project}"/>
+  <repoSession default-value="${repositorySystemSession}"/>
+  <repos default-value="${project.remoteProjectRepositories}"/>
+  <session default-value="${session}"/>
+  <sourceDir default-value="${project.build.sourceDirectory}"/>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-resteasy:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-resteasy:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-resteasy-parent:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-undertow:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-undertow:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-undertow-parent:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-arc:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-arc:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-arc-parent:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus.arc:arc:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus.arc:arc:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus.arc:arc-parent:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-core:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-core:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-core-parent:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-resteasy-server-common:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-resteasy-server-common:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-resteasy-server-common-parent:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-resteasy-common:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-resteasy-common:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-resteasy-common-parent:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-jaxb:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-jaxb:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-jaxb-parent:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-jdbc-oracle:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-jdbc-oracle:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-jdbc-oracle-parent:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-jdbc-parent:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-junit5:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-junit5:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-test-framework:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-bootstrap-core:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-bootstrap-core:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-bootstrap-parent:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-test-common:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-test-common:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-core-deployment:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-core-deployment:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-builder:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-builder:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-jsonp-deployment:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-jsonp-deployment:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-jsonp-parent:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-jsonp:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-jsonp:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=2710116, ConflictMarker.markTime=73567286, ConflictMarker.nodeCount=406, ConflictIdSorter.graphTime=1586667, ConflictIdSorter.topsortTime=1080811, ConflictIdSorter.conflictIdCount=141, ConflictIdSorter.conflictIdCycleCount=1, ConflictResolver.totalTime=33690261, ConflictResolver.conflictItemCount=332, DefaultDependencyCollector.collectTime=2570580820, DefaultDependencyCollector.transformTime=117106628}
+[DEBUG] org.acme:jdbctest:jar:1.0-SNAPSHOT
+[DEBUG]    io.quarkus:quarkus-resteasy:jar:999-SNAPSHOT:compile
+[DEBUG]       io.quarkus:quarkus-undertow:jar:999-SNAPSHOT:compile (version managed from 999-SNAPSHOT)
+[DEBUG]          io.quarkus:quarkus-arc:jar:999-SNAPSHOT:compile (version managed from 999-SNAPSHOT)
+[DEBUG]             io.quarkus.arc:arc:jar:999-SNAPSHOT:compile (version managed from 999-SNAPSHOT)
+[DEBUG]          io.undertow:undertow-servlet:jar:2.0.21.Final:compile (version managed from 2.0.21.Final) (exclusions managed)
+[DEBUG]             io.undertow:undertow-core:jar:2.0.21.Final:compile (version managed from 2.0.21.Final)
+[DEBUG]             org.jboss.spec.javax.servlet:jboss-servlet-api_4.0_spec:jar:1.0.0.Final:compile (version managed from 1.0.0.Final)
+[DEBUG]          org.jboss.xnio:xnio-nio:jar:3.7.2.Final:compile (version managed from 3.7.2.Final)
+[DEBUG]          org.jboss.xnio:xnio-api:jar:3.7.2.Final:compile (version managed from 3.7.2.Final) (exclusions managed)
+[DEBUG]          org.eclipse.microprofile.context-propagation:microprofile-context-propagation-api:jar:1.0-RC1:compile (version managed from 1.0-RC1)
+[DEBUG]             javax.enterprise:cdi-api:jar:2.0.SP1:compile (version managed from 2.0)
+[DEBUG]                javax.el:javax.el-api:jar:3.0.0:compile
+[DEBUG]                javax.interceptor:javax.interceptor-api:jar:1.2:compile
+[DEBUG]       io.quarkus:quarkus-resteasy-server-common:jar:999-SNAPSHOT:compile (version managed from 999-SNAPSHOT)
+[DEBUG]          io.quarkus:quarkus-resteasy-common:jar:999-SNAPSHOT:compile (version managed from 999-SNAPSHOT)
+[DEBUG]             org.jboss.resteasy:resteasy-core:jar:4.1.1.Final:compile (version managed from 4.1.1.Final) (exclusions managed)
+[DEBUG]                org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.1_spec:jar:1.0.2.Final:compile (version managed from 1.0.3.Final)
+[DEBUG]                org.jboss.spec.javax.xml.bind:jboss-jaxb-api_2.3_spec:jar:1.0.1.Final:compile (version managed from 1.0.1.Final)
+[DEBUG]                org.jboss.resteasy:resteasy-core-spi:jar:4.1.1.Final:compile (version managed from 4.1.1.Final) (exclusions managed)
+[DEBUG]                org.reactivestreams:reactive-streams:jar:1.0.2:compile (version managed from 1.0.2)
+[DEBUG]             org.jboss.resteasy:resteasy-context-propagation:jar:4.1.1.Final:compile (version managed from 4.1.1.Final)
+[DEBUG]                io.smallrye:smallrye-context-propagation:jar:1.0.7:compile (version managed from 1.0.1)
+[DEBUG]                   io.smallrye:smallrye-context-propagation-api:jar:1.0.7:compile (version managed from 1.0.7)
+[DEBUG]             com.sun.activation:jakarta.activation:jar:1.2.1:compile (version managed from 1.2.1)
+[DEBUG]          javax.validation:validation-api:jar:2.0.1.Final:compile (version managed from 2.0.1.Final)
+[DEBUG]          io.quarkus:quarkus-jaxb:jar:999-SNAPSHOT:compile (version managed from 999-SNAPSHOT)
+[DEBUG]    io.quarkus:quarkus-jdbc-oracle:jar:999-SNAPSHOT:compile
+[DEBUG]       com.oracle.jdbc:ojdbc8:jar:12.2.0.1:compile
+[DEBUG]          com.oracle.jdbc:ucp:jar:12.2.0.1:compile
+[DEBUG]       com.oracle.jdbc:xdb6:jar:12.2.0.1:compile
+[DEBUG]       com.oracle.substratevm:svm:jar:19.1.1:provided (scope managed from compile) (version managed from 19.1.1) (exclusions managed)
+[DEBUG]    io.quarkus:quarkus-junit5:jar:999-SNAPSHOT:test
+[DEBUG]       io.quarkus:quarkus-bootstrap-core:jar:999-SNAPSHOT:test
+[DEBUG]          org.apache.maven:maven-embedder:jar:3.5.4:test
+[DEBUG]             org.apache.maven:maven-settings:jar:3.5.4:test
+[DEBUG]             org.apache.maven:maven-core:jar:3.5.4:test (version managed from 3.5.4)
+[DEBUG]                org.apache.maven:maven-artifact:jar:3.5.4:test
+[DEBUG]             org.apache.maven:maven-plugin-api:jar:3.5.4:test (version managed from 3.5.4)
+[DEBUG]             org.apache.maven:maven-model:jar:3.5.4:test (version managed from 3.5.4)
+[DEBUG]             org.apache.maven:maven-model-builder:jar:3.5.4:test
+[DEBUG]             org.apache.maven:maven-builder-support:jar:3.5.4:test
+[DEBUG]             org.apache.maven.resolver:maven-resolver-api:jar:1.1.1:test
+[DEBUG]             org.apache.maven.resolver:maven-resolver-util:jar:1.1.1:test
+[DEBUG]             org.apache.maven.shared:maven-shared-utils:jar:3.2.1:test
+[DEBUG]                commons-io:commons-io:jar:2.5:test (version managed from 2.5)
+[DEBUG]             com.google.inject:guice:jar:no_aop:4.2.0:test
+[DEBUG]                aopalliance:aopalliance:jar:1.0:test
+[DEBUG]             com.google.guava:guava:jar:27.0.1-jre:test (version managed from 20.0)
+[DEBUG]                com.google.guava:failureaccess:jar:1.0.1:test
+[DEBUG]                com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:test
+[DEBUG]                com.google.code.findbugs:jsr305:jar:3.0.2:test
+[DEBUG]                org.checkerframework:checker-qual:jar:2.5.2:test
+[DEBUG]                com.google.errorprone:error_prone_annotations:jar:2.2.0:test
+[DEBUG]                com.google.j2objc:j2objc-annotations:jar:1.1:test
+[DEBUG]                org.codehaus.mojo:animal-sniffer-annotations:jar:1.17:test
+[DEBUG]             javax.annotation:jsr250-api:jar:1.0:test
+[DEBUG]             org.codehaus.plexus:plexus-utils:jar:3.0.24:test (version managed from 3.1.0)
+[DEBUG]             org.codehaus.plexus:plexus-classworlds:jar:2.5.2:test
+[DEBUG]             org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.3.3:test
+[DEBUG]             org.codehaus.plexus:plexus-component-annotations:jar:1.7.1:test (version managed from 1.7.1)
+[DEBUG]             commons-cli:commons-cli:jar:1.4:test
+[DEBUG]          org.apache.maven:maven-settings-builder:jar:3.5.4:test (version managed from 3.5.4)
+[DEBUG]             org.codehaus.plexus:plexus-interpolation:jar:1.24:test
+[DEBUG]             org.sonatype.plexus:plexus-sec-dispatcher:jar:1.4:test
+[DEBUG]                org.sonatype.plexus:plexus-cipher:jar:1.4:test
+[DEBUG]          org.apache.maven:maven-resolver-provider:jar:3.5.4:test (version managed from 3.5.4)
+[DEBUG]             org.apache.maven:maven-repository-metadata:jar:3.5.4:test
+[DEBUG]             org.apache.maven.resolver:maven-resolver-spi:jar:1.1.1:test
+[DEBUG]             org.apache.maven.resolver:maven-resolver-impl:jar:1.1.1:test
+[DEBUG]          org.apache.maven.resolver:maven-resolver-connector-basic:jar:1.1.1:test (version managed from 1.1.1)
+[DEBUG]          org.apache.maven.resolver:maven-resolver-transport-file:jar:1.1.1:test (version managed from 1.1.1)
+[DEBUG]          org.apache.maven.resolver:maven-resolver-transport-http:jar:1.1.1:test (version managed from 1.1.1)
+[DEBUG]             org.slf4j:jcl-over-slf4j:jar:1.7.25:test (version managed from 1.7.25)
+[DEBUG]          org.jboss.logging:jboss-logging:jar:3.3.2.Final:compile (version managed from 3.3.2.Final)
+[DEBUG]       io.quarkus:quarkus-test-common:jar:999-SNAPSHOT:test
+[DEBUG]          io.quarkus:quarkus-core-deployment:jar:999-SNAPSHOT:test
+[DEBUG]             commons-beanutils:commons-beanutils:jar:1.9.3:test (version managed from 1.9.3)
+[DEBUG]                commons-collections:commons-collections:jar:3.2.2:test
+[DEBUG]             org.jboss.invocation:jboss-invocation:jar:1.5.2.Final:test (version managed from 1.5.2.Final)
+[DEBUG]             org.jboss.classfilewriter:jboss-classfilewriter:jar:1.2.4.Final:test (version managed from 1.2.4.Final)
+[DEBUG]             io.quarkus.gizmo:gizmo:jar:1.0.0.Alpha5:test (version managed from 1.0.0.Alpha5)
+[DEBUG]                org.ow2.asm:asm-util:jar:7.1:test
+[DEBUG]                   org.ow2.asm:asm-tree:jar:7.1:test (version managed from 7.1)
+[DEBUG]                   org.ow2.asm:asm-analysis:jar:7.1:test (version managed from 7.1)
+[DEBUG]             org.ow2.asm:asm:jar:7.1:test (version managed from 7.1)
+[DEBUG]             io.quarkus:quarkus-builder:jar:999-SNAPSHOT:test
+[DEBUG]          io.quarkus:quarkus-jsonp-deployment:jar:999-SNAPSHOT:test
+[DEBUG]             io.quarkus:quarkus-jsonp:jar:999-SNAPSHOT:test (version managed from 999-SNAPSHOT)
+[DEBUG]                org.glassfish:javax.json:jar:1.1.4:test (version managed from 1.1.4)
+[DEBUG]          org.jboss:jandex:jar:2.1.1.Final:test (version managed from 2.1.1.Final)
+[DEBUG]       org.junit.jupiter:junit-jupiter-api:jar:5.5.0:test (version managed from 5.5.0)
+[DEBUG]          org.apiguardian:apiguardian-api:jar:1.1.0:test
+[DEBUG]          org.opentest4j:opentest4j:jar:1.2.0:test
+[DEBUG]          org.junit.platform:junit-platform-commons:jar:1.5.0:test (version managed from 1.5.0)
+[DEBUG]       org.junit.jupiter:junit-jupiter-params:jar:5.5.0:test (version managed from 5.5.0)
+[DEBUG]       org.junit.jupiter:junit-jupiter-engine:jar:5.5.0:test (version managed from 5.5.0)
+[DEBUG]          org.junit.platform:junit-platform-engine:jar:1.5.0:test (version managed from 1.5.0)
+[DEBUG]       io.quarkus:quarkus-core:jar:999-SNAPSHOT:compile (version managed from 999-SNAPSHOT)
+[DEBUG]          javax.inject:javax.inject:jar:1:compile (version managed from 1)
+[DEBUG]          javax.annotation:javax.annotation-api:jar:1.3.2:compile (version managed from 1.3.2)
+[DEBUG]          io.smallrye:smallrye-config:jar:1.3.5:compile (version managed from 1.3.5)
+[DEBUG]             org.eclipse.microprofile.config:microprofile-config-api:jar:1.3:compile (version managed from 1.3)
+[DEBUG]                org.osgi:org.osgi.annotation.versioning:jar:1.0.0:compile
+[DEBUG]          org.jboss.logmanager:jboss-logmanager-embedded:jar:1.0.3:compile (version managed from 1.0.3) (exclusions managed)
+[DEBUG]          org.jboss.logging:jboss-logging-annotations:jar:2.1.0.Final:compile (version managed from 2.1.0.Final)
+[DEBUG]          org.jboss.threads:jboss-threads:jar:3.0.0.Beta5:compile (version managed from 3.0.0.Beta5)
+[DEBUG]          org.slf4j:slf4j-api:jar:1.7.25:compile (version managed from 1.7.25)
+[DEBUG]          org.jboss.slf4j:slf4j-jboss-logging:jar:1.2.0.Final:compile (version managed from 1.2.0.Final)
+[DEBUG]          org.graalvm.sdk:graal-sdk:jar:19.1.1:compile (version managed from 19.1.1)
+[DEBUG]          org.wildfly.common:wildfly-common:jar:1.5.0.Final-format-001:compile (version managed from 1.5.0.Final-format-001)
+[DEBUG]          org.wildfly.security:wildfly-elytron-ssl:jar:2.0.0.Alpha4:compile (version managed from 2.0.0.Alpha4)
+[DEBUG]             org.wildfly.security:wildfly-elytron-auth-server:jar:2.0.0.Alpha4:compile (version managed from 2.0.0.Alpha4)
+[DEBUG]                org.wildfly.security:wildfly-elytron-permission:jar:2.0.0.Alpha4:compile
+[DEBUG]             org.wildfly.security:wildfly-elytron-base:jar:2.0.0.Alpha4:compile
+[DEBUG]             org.wildfly.security:wildfly-elytron-credential:jar:2.0.0.Alpha4:compile
+[DEBUG]                org.wildfly.security:wildfly-elytron-keystore:jar:2.0.0.Alpha4:compile
+[DEBUG]                org.wildfly.security:wildfly-elytron-provider-util:jar:2.0.0.Alpha4:compile
+[DEBUG]             org.wildfly.security:wildfly-elytron-auth:jar:2.0.0.Alpha4:compile
+[DEBUG]             org.wildfly.security:wildfly-elytron-util:jar:2.0.0.Alpha4:compile
+[DEBUG]             org.wildfly.security:wildfly-elytron-x500:jar:2.0.0.Alpha4:compile
+[DEBUG]          org.wildfly.security:wildfly-elytron-x500-cert:jar:2.0.0.Alpha4:compile (version managed from 2.0.0.Alpha4)
+[DEBUG]             org.wildfly.security:wildfly-elytron-asn1:jar:2.0.0.Alpha4:compile
+[DEBUG]             org.wildfly.security:wildfly-elytron-x500-cert-util:jar:2.0.0.Alpha4:compile
+[DEBUG]    io.rest-assured:rest-assured:jar:3.3.0:test (exclusions managed)
+[DEBUG]       org.codehaus.groovy:groovy:jar:2.4.15:test
+[DEBUG]       org.codehaus.groovy:groovy-xml:jar:2.4.15:test
+[DEBUG]       org.apache.httpcomponents:httpclient:jar:4.5.9:test (version managed from 4.5.3)
+[DEBUG]          org.apache.httpcomponents:httpcore:jar:4.4.11:test (version managed from 4.4.11)
+[DEBUG]          commons-logging:commons-logging:jar:1.2:test (version managed from 1.2)
+[DEBUG]          commons-codec:commons-codec:jar:1.11:test (version managed from 1.11)
+[DEBUG]       org.apache.httpcomponents:httpmime:jar:4.5.3:test
+[DEBUG]       org.hamcrest:hamcrest-core:jar:1.3:test
+[DEBUG]       org.hamcrest:hamcrest-library:jar:1.3:test
+[DEBUG]       org.ccil.cowan.tagsoup:tagsoup:jar:1.2.1:test
+[DEBUG]       io.rest-assured:json-path:jar:3.3.0:test (scope managed from compile) (version managed from 3.3.0)
+[DEBUG]          org.codehaus.groovy:groovy-json:jar:2.4.15:test
+[DEBUG]          io.rest-assured:rest-assured-common:jar:3.3.0:test
+[DEBUG]       io.rest-assured:xml-path:jar:3.3.0:test
+[DEBUG]          org.apache.commons:commons-lang3:jar:3.8.1:test (version managed from 3.4)
+[DEBUG]          javax.xml.bind:jaxb-api:jar:2.3.1:compile (version managed from 2.2.12) (exclusions managed)
+[DEBUG]          org.apache.sling:org.apache.sling.javax.activation:jar:0.1.0:test
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ jdbctest ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=297900, ConflictMarker.markTime=64935, ConflictMarker.nodeCount=77, ConflictIdSorter.graphTime=124631, ConflictIdSorter.topsortTime=33471, ConflictIdSorter.conflictIdCount=26, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=786813, ConflictResolver.conflictItemCount=74, DefaultDependencyCollector.collectTime=242633911, DefaultDependencyCollector.transformTime=1412636}
+[DEBUG] org.apache.maven.plugins:maven-resources-plugin:jar:2.6:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6:compile
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.0.6:compile
+[DEBUG]          org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.6:compile
+[DEBUG]       commons-cli:commons-cli:jar:1.0:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-monitor:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]       junit:junit:jar:3.8.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:2.0.5:compile
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:1.1:compile
+[DEBUG]       org.sonatype.plexus:plexus-build-api:jar:0.0.4:compile
+[DEBUG]    org.codehaus.plexus:plexus-interpolation:jar:1.13:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG]   Included: org.apache.maven.plugins:maven-resources-plugin:jar:2.6
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.5
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:1.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.13
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.6:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.6, parent: java.net.URLClassLoader@72ea2f77]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.6:resources' with basic configurator -->
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = /home/michael/API/SummerPractise/jdbc-driver/jdbctest/target/classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: org.acme:jdbctest:1.0-SNAPSHOT @ /home/michael/API/SummerPractise/jdbc-driver/jdbctest/pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /home/michael/API/SummerPractise/jdbc-driver/jdbctest/src/main/resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@ba1f559
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used {java.vendor=Oracle Corporation, env.SESSION_MANAGER=local/PC-001:@/tmp/.ICE-unix/3049,unix/PC-001:/tmp/.ICE-unix/3049, env.IM_CONFIG_PHASE=1, env.LESSOPEN=| /usr/bin/lesspipe %s, sun.java.launcher=SUN_STANDARD, env.QT_IM_MODULE=ibus, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, env.GTK2_MODULES=overlay-scrollbar, os.name=Linux, env.UPSTART_SESSION=unix:abstract=/com/ubuntu/upstart-session/1000/2784, sun.boot.class.path=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes, env.PWD=/home/michael/API/SummerPractise/jdbc-driver/jdbctest, sun.desktop=gnome, env.LANG=ru_RU.UTF-8, java.vm.specification.vendor=Oracle Corporation, env.XDG_MENU_PREFIX=gnome-, java.runtime.version=1.8.0_212-8u212-b03-0ubuntu1.16.04.1-b03, env.GTK_IM_MODULE=ibus, env.QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1, env.DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path, env.XDG_VTNR=7, project.build.sourceEncoding=UTF-8, env.DISPLAY=:0, user.name=michael, env.QT4_IM_MODULE=xim, env._=./mvnw, maven.build.version=Apache Maven 3.6.1 (d66c9c0b3152b2e69ee9bac180bb8fcc8e6af555; 2019-04-04T22:00:29+03:00), env.USER=michael, env.SHELL=/bin/bash, env.DESKTOP_SESSION=ubuntu, env.XDG_DATA_DIRS=/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/var/lib/snapd/desktop, env.PATH=/home/michael/.m2/wrapper/dists/apache-maven-3.6.1-bin/38pn40mp89t5c94bjdbeod370m/apache-maven-3.6.1/bin/bin:/opt/maven/bin:/opt/netbeans/bin:/home/michael/API/STRL/catkin_ws/devel:/home/michael/API/STRL/catkin_ws:/home/michael/MatLab/bin:/home/michael/.local/share/umake/bin:/home/michael/bin:/home/michael/.local/bin:/opt/maven/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin, env.XDG_CURRENT_DESKTOP=Unity, user.language=ru, env.XDG_SESSION_DESKTOP=ubuntu, quarkus.version=999-SNAPSHOT, sun.boot.library.path=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64, classworlds.conf=/home/michael/.m2/wrapper/dists/apache-maven-3.6.1-bin/38pn40mp89t5c94bjdbeod370m/apache-maven-3.6.1/bin/m2.conf, java.version=1.8.0_212, user.timezone=, env.DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-NljrV826Su, sun.arch.data.model=64, env.COMPIZ_CONFIG_PROFILE=ubuntu, java.endorsed.dirs=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed, sun.cpu.isalist=, sun.jnu.encoding=UTF-8, file.encoding.pkg=sun.io, env.SHLVL=1, file.separator=/, java.specification.name=Java Platform API Specification, maven.conf=/home/michael/.m2/wrapper/dists/apache-maven-3.6.1-bin/38pn40mp89t5c94bjdbeod370m/apache-maven-3.6.1/conf, env.GNOME_DESKTOP_SESSION_ID=this-is-deprecated, java.class.version=52.0, env.GDMSESSION=ubuntu, user.country=RU, env.GNOME_KEYRING_PID=, java.home=/usr/lib/jvm/java-8-openjdk-amd64/jre, java.vm.info=mixed mode, env.LOGNAME=michael, os.version=4.13.0-38-generic, maven.compiler.target=1.8, project.reporting.outputEncoding=UTF-8, path.separator=:, java.vm.version=25.212-b03, env.LANGUAGE=ru, surefire-plugin.version=2.22.0, env.XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0, env.QT_QPA_PLATFORMTHEME=appmenu-qt5, env.GRAALVM_HOME=/home/michael/API/GraalVM, env.SESSIONTYPE=gnome-session, env.XDG_SESSION_TYPE=x11, env.JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64, java.awt.printerjob=sun.print.PSPrinterJob, env.TERM=xterm-256color, native-image.debug-build-process=false, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.X11.XToolkit, env.XMODIFIERS=@im=ibus, env.GDM_LANG=ru, user.home=/home/michael, env.JOB=dbus, java.specification.vendor=Oracle Corporation, env.M2_HOME=/home/michael/.m2/wrapper/dists/apache-maven-3.6.1-bin/38pn40mp89t5c94bjdbeod370m/apache-maven-3.6.1/bin, env.VTE_VERSION=4205, env.WINDOWID=67117613, java.library.path=/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib, java.vendor.url=http://java.oracle.com/, env.MAVEN_CMD_LINE_ARGS= -o -X compile quarkus:dev, env.XDG_SEAT=seat0, java.vm.vendor=Oracle Corporation, maven.home=/home/michael/.m2/wrapper/dists/apache-maven-3.6.1-bin/38pn40mp89t5c94bjdbeod370m/apache-maven-3.6.1, java.runtime.name=OpenJDK Runtime Environment, sun.java.command=org.apache.maven.wrapper.MavenWrapperMain -o -X compile quarkus:dev, java.class.path=/home/michael/API/SummerPractise/jdbc-driver/jdbctest/.mvn/wrapper/maven-wrapper.jar, env.XDG_SESSION_ID=c2, maven.version=3.6.1, env.QT_ACCESSIBILITY=1, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.8, sun.cpu.endian=little, sun.os.patch.level=unknown, env.HOME=/home/michael, java.io.tmpdir=/tmp, env.LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:, env.XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, maven.multiModuleProjectDirectory=/home/michael/API/SummerPractise/jdbc-driver/jdbctest, env.SSH_AUTH_SOCK=/run/user/1000/keyring/ssh, maven.compiler.source=1.8, env.CLUTTER_IM_MODULE=xim, os.arch=amd64, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, env.INSTANCE=, java.ext.dirs=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext, env.XDG_RUNTIME_DIR=/run/user/1000, user.dir=/home/michael/API/SummerPractise/jdbc-driver/jdbctest, env.SESSION=ubuntu, env.XAUTHORITY=/home/michael/.Xauthority, env.MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path, env.GTK_MODULES=gail:atk-bridge:unity-gtk-module, line.separator=
+, java.vm.name=OpenJDK 64-Bit Server VM, env.XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/michael, file.encoding=UTF-8, env.GPG_AGENT_INFO=/home/michael/.gnupg/S.gpg-agent:0:1, java.specification.version=1.8, env.GNOME_KEYRING_CONTROL=, env.XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg, env.MAVEN_PROJECTBASEDIR=/home/michael/API/SummerPractise/jdbc-driver/jdbctest, env.LESSCLOSE=/usr/bin/lesspipe %s %s}
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[DEBUG] resource with targetPath null
+directory /home/michael/API/SummerPractise/jdbc-driver/jdbctest/src/main/resources
+excludes []
+includes []
+[DEBUG] ignoreDelta true
+[INFO] Copying 2 resources
+[DEBUG] file application.properties has a filtered file extension
+[DEBUG] copy /home/michael/API/SummerPractise/jdbc-driver/jdbctest/src/main/resources/application.properties to /home/michael/API/SummerPractise/jdbc-driver/jdbctest/target/classes/application.properties
+[DEBUG] file index.html has a filtered file extension
+[DEBUG] copy /home/michael/API/SummerPractise/jdbc-driver/jdbctest/src/main/resources/META-INF/resources/index.html to /home/michael/API/SummerPractise/jdbc-driver/jdbctest/target/classes/META-INF/resources/index.html
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ jdbctest ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=278826, ConflictMarker.markTime=70018, ConflictMarker.nodeCount=160, ConflictIdSorter.graphTime=53086, ConflictIdSorter.topsortTime=41078, ConflictIdSorter.conflictIdCount=43, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=614084, ConflictResolver.conflictItemCount=63, DefaultDependencyCollector.collectTime=221782645, DefaultDependencyCollector.transformTime=1091979}
+[DEBUG] org.apache.maven.plugins:maven-compiler-plugin:jar:3.1:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.9:compile
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:1.5.1:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-project:jar:2.0.9:compile
+[DEBUG]          org.apache.maven:maven-plugin-registry:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-toolchain:jar:1.0:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:0.1:compile
+[DEBUG]       com.google.code.findbugs:jsr305:jar:2.0.1:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-incremental:jar:1.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-api:jar:2.2:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-manager:jar:2.2:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-javac:jar:2.2:runtime
+[DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.5.5:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.2.2:compile
+[DEBUG]       org.apache.xbean:xbean-reflect:jar:3.4:compile
+[DEBUG]          log4j:log4j:jar:1.2.12:compile
+[DEBUG]          commons-logging:commons-logging-api:jar:1.1:compile
+[DEBUG]       com.google.collections:google-collections:jar:1.0:compile
+[DEBUG]       junit:junit:jar:3.8.2:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1
+[DEBUG]   Included: org.apache.maven.plugins:maven-compiler-plugin:jar:3.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.5.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:0.1
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:2.0.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-incremental:jar:1.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-api:jar:2.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-manager:jar:2.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-javac:jar:2.2
+[DEBUG]   Included: org.apache.xbean:xbean-reflect:jar:3.4
+[DEBUG]   Included: log4j:log4j:jar:1.2.12
+[DEBUG]   Included: commons-logging:commons-logging-api:jar:1.1
+[DEBUG]   Included: com.google.collections:google-collections:jar:1.0
+[DEBUG]   Included: junit:junit:jar:3.8.2
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.1:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1, parent: java.net.URLClassLoader@72ea2f77]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.1:compile' with basic configurator -->
+[DEBUG]   (f) basedir = /home/michael/API/SummerPractise/jdbc-driver/jdbctest
+[DEBUG]   (f) buildDirectory = /home/michael/API/SummerPractise/jdbc-driver/jdbctest/target
+[DEBUG]   (f) classpathElements = [/home/michael/API/SummerPractise/jdbc-driver/jdbctest/target/classes, /home/michael/.m2/repository/io/quarkus/quarkus-resteasy/999-SNAPSHOT/quarkus-resteasy-999-SNAPSHOT.jar, /home/michael/.m2/repository/io/quarkus/quarkus-undertow/999-SNAPSHOT/quarkus-undertow-999-SNAPSHOT.jar, /home/michael/.m2/repository/io/quarkus/quarkus-arc/999-SNAPSHOT/quarkus-arc-999-SNAPSHOT.jar, /home/michael/.m2/repository/io/quarkus/arc/arc/999-SNAPSHOT/arc-999-SNAPSHOT.jar, /home/michael/.m2/repository/io/undertow/undertow-servlet/2.0.21.Final/undertow-servlet-2.0.21.Final.jar, /home/michael/.m2/repository/io/undertow/undertow-core/2.0.21.Final/undertow-core-2.0.21.Final.jar, /home/michael/.m2/repository/org/jboss/spec/javax/servlet/jboss-servlet-api_4.0_spec/1.0.0.Final/jboss-servlet-api_4.0_spec-1.0.0.Final.jar, /home/michael/.m2/repository/org/jboss/xnio/xnio-nio/3.7.2.Final/xnio-nio-3.7.2.Final.jar, /home/michael/.m2/repository/org/jboss/xnio/xnio-api/3.7.2.Final/xnio-api-3.7.2.Final.jar, /home/michael/.m2/repository/org/eclipse/microprofile/context-propagation/microprofile-context-propagation-api/1.0-RC1/microprofile-context-propagation-api-1.0-RC1.jar, /home/michael/.m2/repository/javax/enterprise/cdi-api/2.0.SP1/cdi-api-2.0.SP1.jar, /home/michael/.m2/repository/javax/el/javax.el-api/3.0.0/javax.el-api-3.0.0.jar, /home/michael/.m2/repository/javax/interceptor/javax.interceptor-api/1.2/javax.interceptor-api-1.2.jar, /home/michael/.m2/repository/io/quarkus/quarkus-resteasy-server-common/999-SNAPSHOT/quarkus-resteasy-server-common-999-SNAPSHOT.jar, /home/michael/.m2/repository/io/quarkus/quarkus-resteasy-common/999-SNAPSHOT/quarkus-resteasy-common-999-SNAPSHOT.jar, /home/michael/.m2/repository/org/jboss/resteasy/resteasy-core/4.1.1.Final/resteasy-core-4.1.1.Final.jar, /home/michael/.m2/repository/org/jboss/spec/javax/ws/rs/jboss-jaxrs-api_2.1_spec/1.0.2.Final/jboss-jaxrs-api_2.1_spec-1.0.2.Final.jar, /home/michael/.m2/repository/org/jboss/spec/javax/xml/bind/jboss-jaxb-api_2.3_spec/1.0.1.Final/jboss-jaxb-api_2.3_spec-1.0.1.Final.jar, /home/michael/.m2/repository/org/jboss/resteasy/resteasy-core-spi/4.1.1.Final/resteasy-core-spi-4.1.1.Final.jar, /home/michael/.m2/repository/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2.jar, /home/michael/.m2/repository/org/jboss/resteasy/resteasy-context-propagation/4.1.1.Final/resteasy-context-propagation-4.1.1.Final.jar, /home/michael/.m2/repository/io/smallrye/smallrye-context-propagation/1.0.7/smallrye-context-propagation-1.0.7.jar, /home/michael/.m2/repository/io/smallrye/smallrye-context-propagation-api/1.0.7/smallrye-context-propagation-api-1.0.7.jar, /home/michael/.m2/repository/com/sun/activation/jakarta.activation/1.2.1/jakarta.activation-1.2.1.jar, /home/michael/.m2/repository/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar, /home/michael/.m2/repository/io/quarkus/quarkus-jaxb/999-SNAPSHOT/quarkus-jaxb-999-SNAPSHOT.jar, /home/michael/.m2/repository/io/quarkus/quarkus-jdbc-oracle/999-SNAPSHOT/quarkus-jdbc-oracle-999-SNAPSHOT.jar, /home/michael/.m2/repository/com/oracle/jdbc/ojdbc8/12.2.0.1/ojdbc8-12.2.0.1.jar, /home/michael/.m2/repository/com/oracle/jdbc/ucp/12.2.0.1/ucp-12.2.0.1.jar, /home/michael/.m2/repository/com/oracle/jdbc/xdb6/12.2.0.1/xdb6-12.2.0.1.jar, /home/michael/.m2/repository/com/oracle/substratevm/svm/19.1.1/svm-19.1.1.jar, /home/michael/.m2/repository/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.jar, /home/michael/.m2/repository/io/quarkus/quarkus-core/999-SNAPSHOT/quarkus-core-999-SNAPSHOT.jar, /home/michael/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar, /home/michael/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar, /home/michael/.m2/repository/io/smallrye/smallrye-config/1.3.5/smallrye-config-1.3.5.jar, /home/michael/.m2/repository/org/eclipse/microprofile/config/microprofile-config-api/1.3/microprofile-config-api-1.3.jar, /home/michael/.m2/repository/org/osgi/org.osgi.annotation.versioning/1.0.0/org.osgi.annotation.versioning-1.0.0.jar, /home/michael/.m2/repository/org/jboss/logmanager/jboss-logmanager-embedded/1.0.3/jboss-logmanager-embedded-1.0.3.jar, /home/michael/.m2/repository/org/jboss/logging/jboss-logging-annotations/2.1.0.Final/jboss-logging-annotations-2.1.0.Final.jar, /home/michael/.m2/repository/org/jboss/threads/jboss-threads/3.0.0.Beta5/jboss-threads-3.0.0.Beta5.jar, /home/michael/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar, /home/michael/.m2/repository/org/jboss/slf4j/slf4j-jboss-logging/1.2.0.Final/slf4j-jboss-logging-1.2.0.Final.jar, /home/michael/.m2/repository/org/graalvm/sdk/graal-sdk/19.1.1/graal-sdk-19.1.1.jar, /home/michael/.m2/repository/org/wildfly/common/wildfly-common/1.5.0.Final-format-001/wildfly-common-1.5.0.Final-format-001.jar, /home/michael/.m2/repository/org/wildfly/security/wildfly-elytron-ssl/2.0.0.Alpha4/wildfly-elytron-ssl-2.0.0.Alpha4.jar, /home/michael/.m2/repository/org/wildfly/security/wildfly-elytron-auth-server/2.0.0.Alpha4/wildfly-elytron-auth-server-2.0.0.Alpha4.jar, /home/michael/.m2/repository/org/wildfly/security/wildfly-elytron-permission/2.0.0.Alpha4/wildfly-elytron-permission-2.0.0.Alpha4.jar, /home/michael/.m2/repository/org/wildfly/security/wildfly-elytron-base/2.0.0.Alpha4/wildfly-elytron-base-2.0.0.Alpha4.jar, /home/michael/.m2/repository/org/wildfly/security/wildfly-elytron-credential/2.0.0.Alpha4/wildfly-elytron-credential-2.0.0.Alpha4.jar, /home/michael/.m2/repository/org/wildfly/security/wildfly-elytron-keystore/2.0.0.Alpha4/wildfly-elytron-keystore-2.0.0.Alpha4.jar, /home/michael/.m2/repository/org/wildfly/security/wildfly-elytron-provider-util/2.0.0.Alpha4/wildfly-elytron-provider-util-2.0.0.Alpha4.jar, /home/michael/.m2/repository/org/wildfly/security/wildfly-elytron-auth/2.0.0.Alpha4/wildfly-elytron-auth-2.0.0.Alpha4.jar, /home/michael/.m2/repository/org/wildfly/security/wildfly-elytron-util/2.0.0.Alpha4/wildfly-elytron-util-2.0.0.Alpha4.jar, /home/michael/.m2/repository/org/wildfly/security/wildfly-elytron-x500/2.0.0.Alpha4/wildfly-elytron-x500-2.0.0.Alpha4.jar, /home/michael/.m2/repository/org/wildfly/security/wildfly-elytron-x500-cert/2.0.0.Alpha4/wildfly-elytron-x500-cert-2.0.0.Alpha4.jar, /home/michael/.m2/repository/org/wildfly/security/wildfly-elytron-asn1/2.0.0.Alpha4/wildfly-elytron-asn1-2.0.0.Alpha4.jar, /home/michael/.m2/repository/org/wildfly/security/wildfly-elytron-x500-cert-util/2.0.0.Alpha4/wildfly-elytron-x500-cert-util-2.0.0.Alpha4.jar, /home/michael/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar]
+[DEBUG]   (f) compileSourceRoots = [/home/michael/API/SummerPractise/jdbc-driver/jdbctest/src/main/java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedSourcesDirectory = /home/michael/API/SummerPractise/jdbc-driver/jdbctest/target/generated-sources/annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.1:compile {execution: default-compile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = /home/michael/API/SummerPractise/jdbc-driver/jdbctest/target/classes
+[DEBUG]   (f) projectArtifact = org.acme:jdbctest:jar:1.0-SNAPSHOT
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 1.8
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) target = 1.8
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) verbose = false
+[DEBUG]   (f) mavenSession = org.apache.maven.execution.MavenSession@ba1f559
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@ba1f559
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Source directories: [/home/michael/API/SummerPractise/jdbc-driver/jdbctest/src/main/java]
+[DEBUG] Classpath: [/home/michael/API/SummerPractise/jdbc-driver/jdbctest/target/classes
+ /home/michael/.m2/repository/io/quarkus/quarkus-resteasy/999-SNAPSHOT/quarkus-resteasy-999-SNAPSHOT.jar
+ /home/michael/.m2/repository/io/quarkus/quarkus-undertow/999-SNAPSHOT/quarkus-undertow-999-SNAPSHOT.jar
+ /home/michael/.m2/repository/io/quarkus/quarkus-arc/999-SNAPSHOT/quarkus-arc-999-SNAPSHOT.jar
+ /home/michael/.m2/repository/io/quarkus/arc/arc/999-SNAPSHOT/arc-999-SNAPSHOT.jar
+ /home/michael/.m2/repository/io/undertow/undertow-servlet/2.0.21.Final/undertow-servlet-2.0.21.Final.jar
+ /home/michael/.m2/repository/io/undertow/undertow-core/2.0.21.Final/undertow-core-2.0.21.Final.jar
+ /home/michael/.m2/repository/org/jboss/spec/javax/servlet/jboss-servlet-api_4.0_spec/1.0.0.Final/jboss-servlet-api_4.0_spec-1.0.0.Final.jar
+ /home/michael/.m2/repository/org/jboss/xnio/xnio-nio/3.7.2.Final/xnio-nio-3.7.2.Final.jar
+ /home/michael/.m2/repository/org/jboss/xnio/xnio-api/3.7.2.Final/xnio-api-3.7.2.Final.jar
+ /home/michael/.m2/repository/org/eclipse/microprofile/context-propagation/microprofile-context-propagation-api/1.0-RC1/microprofile-context-propagation-api-1.0-RC1.jar
+ /home/michael/.m2/repository/javax/enterprise/cdi-api/2.0.SP1/cdi-api-2.0.SP1.jar
+ /home/michael/.m2/repository/javax/el/javax.el-api/3.0.0/javax.el-api-3.0.0.jar
+ /home/michael/.m2/repository/javax/interceptor/javax.interceptor-api/1.2/javax.interceptor-api-1.2.jar
+ /home/michael/.m2/repository/io/quarkus/quarkus-resteasy-server-common/999-SNAPSHOT/quarkus-resteasy-server-common-999-SNAPSHOT.jar
+ /home/michael/.m2/repository/io/quarkus/quarkus-resteasy-common/999-SNAPSHOT/quarkus-resteasy-common-999-SNAPSHOT.jar
+ /home/michael/.m2/repository/org/jboss/resteasy/resteasy-core/4.1.1.Final/resteasy-core-4.1.1.Final.jar
+ /home/michael/.m2/repository/org/jboss/spec/javax/ws/rs/jboss-jaxrs-api_2.1_spec/1.0.2.Final/jboss-jaxrs-api_2.1_spec-1.0.2.Final.jar
+ /home/michael/.m2/repository/org/jboss/spec/javax/xml/bind/jboss-jaxb-api_2.3_spec/1.0.1.Final/jboss-jaxb-api_2.3_spec-1.0.1.Final.jar
+ /home/michael/.m2/repository/org/jboss/resteasy/resteasy-core-spi/4.1.1.Final/resteasy-core-spi-4.1.1.Final.jar
+ /home/michael/.m2/repository/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2.jar
+ /home/michael/.m2/repository/org/jboss/resteasy/resteasy-context-propagation/4.1.1.Final/resteasy-context-propagation-4.1.1.Final.jar
+ /home/michael/.m2/repository/io/smallrye/smallrye-context-propagation/1.0.7/smallrye-context-propagation-1.0.7.jar
+ /home/michael/.m2/repository/io/smallrye/smallrye-context-propagation-api/1.0.7/smallrye-context-propagation-api-1.0.7.jar
+ /home/michael/.m2/repository/com/sun/activation/jakarta.activation/1.2.1/jakarta.activation-1.2.1.jar
+ /home/michael/.m2/repository/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar
+ /home/michael/.m2/repository/io/quarkus/quarkus-jaxb/999-SNAPSHOT/quarkus-jaxb-999-SNAPSHOT.jar
+ /home/michael/.m2/repository/io/quarkus/quarkus-jdbc-oracle/999-SNAPSHOT/quarkus-jdbc-oracle-999-SNAPSHOT.jar
+ /home/michael/.m2/repository/com/oracle/jdbc/ojdbc8/12.2.0.1/ojdbc8-12.2.0.1.jar
+ /home/michael/.m2/repository/com/oracle/jdbc/ucp/12.2.0.1/ucp-12.2.0.1.jar
+ /home/michael/.m2/repository/com/oracle/jdbc/xdb6/12.2.0.1/xdb6-12.2.0.1.jar
+ /home/michael/.m2/repository/com/oracle/substratevm/svm/19.1.1/svm-19.1.1.jar
+ /home/michael/.m2/repository/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.jar
+ /home/michael/.m2/repository/io/quarkus/quarkus-core/999-SNAPSHOT/quarkus-core-999-SNAPSHOT.jar
+ /home/michael/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar
+ /home/michael/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar
+ /home/michael/.m2/repository/io/smallrye/smallrye-config/1.3.5/smallrye-config-1.3.5.jar
+ /home/michael/.m2/repository/org/eclipse/microprofile/config/microprofile-config-api/1.3/microprofile-config-api-1.3.jar
+ /home/michael/.m2/repository/org/osgi/org.osgi.annotation.versioning/1.0.0/org.osgi.annotation.versioning-1.0.0.jar
+ /home/michael/.m2/repository/org/jboss/logmanager/jboss-logmanager-embedded/1.0.3/jboss-logmanager-embedded-1.0.3.jar
+ /home/michael/.m2/repository/org/jboss/logging/jboss-logging-annotations/2.1.0.Final/jboss-logging-annotations-2.1.0.Final.jar
+ /home/michael/.m2/repository/org/jboss/threads/jboss-threads/3.0.0.Beta5/jboss-threads-3.0.0.Beta5.jar
+ /home/michael/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar
+ /home/michael/.m2/repository/org/jboss/slf4j/slf4j-jboss-logging/1.2.0.Final/slf4j-jboss-logging-1.2.0.Final.jar
+ /home/michael/.m2/repository/org/graalvm/sdk/graal-sdk/19.1.1/graal-sdk-19.1.1.jar
+ /home/michael/.m2/repository/org/wildfly/common/wildfly-common/1.5.0.Final-format-001/wildfly-common-1.5.0.Final-format-001.jar
+ /home/michael/.m2/repository/org/wildfly/security/wildfly-elytron-ssl/2.0.0.Alpha4/wildfly-elytron-ssl-2.0.0.Alpha4.jar
+ /home/michael/.m2/repository/org/wildfly/security/wildfly-elytron-auth-server/2.0.0.Alpha4/wildfly-elytron-auth-server-2.0.0.Alpha4.jar
+ /home/michael/.m2/repository/org/wildfly/security/wildfly-elytron-permission/2.0.0.Alpha4/wildfly-elytron-permission-2.0.0.Alpha4.jar
+ /home/michael/.m2/repository/org/wildfly/security/wildfly-elytron-base/2.0.0.Alpha4/wildfly-elytron-base-2.0.0.Alpha4.jar
+ /home/michael/.m2/repository/org/wildfly/security/wildfly-elytron-credential/2.0.0.Alpha4/wildfly-elytron-credential-2.0.0.Alpha4.jar
+ /home/michael/.m2/repository/org/wildfly/security/wildfly-elytron-keystore/2.0.0.Alpha4/wildfly-elytron-keystore-2.0.0.Alpha4.jar
+ /home/michael/.m2/repository/org/wildfly/security/wildfly-elytron-provider-util/2.0.0.Alpha4/wildfly-elytron-provider-util-2.0.0.Alpha4.jar
+ /home/michael/.m2/repository/org/wildfly/security/wildfly-elytron-auth/2.0.0.Alpha4/wildfly-elytron-auth-2.0.0.Alpha4.jar
+ /home/michael/.m2/repository/org/wildfly/security/wildfly-elytron-util/2.0.0.Alpha4/wildfly-elytron-util-2.0.0.Alpha4.jar
+ /home/michael/.m2/repository/org/wildfly/security/wildfly-elytron-x500/2.0.0.Alpha4/wildfly-elytron-x500-2.0.0.Alpha4.jar
+ /home/michael/.m2/repository/org/wildfly/security/wildfly-elytron-x500-cert/2.0.0.Alpha4/wildfly-elytron-x500-cert-2.0.0.Alpha4.jar
+ /home/michael/.m2/repository/org/wildfly/security/wildfly-elytron-asn1/2.0.0.Alpha4/wildfly-elytron-asn1-2.0.0.Alpha4.jar
+ /home/michael/.m2/repository/org/wildfly/security/wildfly-elytron-x500-cert-util/2.0.0.Alpha4/wildfly-elytron-x500-cert-util-2.0.0.Alpha4.jar
+ /home/michael/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar]
+[DEBUG] Output directory: /home/michael/API/SummerPractise/jdbc-driver/jdbctest/target/classes
+[DEBUG] CompilerReuseStrategy: reuseCreated
+[DEBUG] useIncrementalCompilation enabled
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- quarkus-maven-plugin:999-SNAPSHOT:dev (default-cli) @ jdbctest ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=678474, ConflictMarker.markTime=361743, ConflictMarker.nodeCount=620, ConflictIdSorter.graphTime=467450, ConflictIdSorter.topsortTime=137692, ConflictIdSorter.conflictIdCount=122, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=3908038, ConflictResolver.conflictItemCount=285, DefaultDependencyCollector.collectTime=398176901, DefaultDependencyCollector.transformTime=5605342}
+[DEBUG] io.quarkus:quarkus-maven-plugin:jar:999-SNAPSHOT:
+[DEBUG]    io.quarkus:quarkus-bootstrap-core:jar:999-SNAPSHOT:compile
+[DEBUG]       org.apache.maven:maven-embedder:jar:3.5.4:compile
+[DEBUG]          javax.annotation:jsr250-api:jar:1.0:compile
+[DEBUG]          commons-cli:commons-cli:jar:1.4:compile
+[DEBUG]       org.apache.maven:maven-settings-builder:jar:3.5.4:compile
+[DEBUG]          org.codehaus.plexus:plexus-interpolation:jar:1.24:compile
+[DEBUG]          org.sonatype.plexus:plexus-sec-dispatcher:jar:1.4:compile
+[DEBUG]             org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]       org.apache.maven:maven-resolver-provider:jar:3.5.4:compile
+[DEBUG]       org.apache.maven.resolver:maven-resolver-connector-basic:jar:1.1.1:compile
+[DEBUG]       org.apache.maven.resolver:maven-resolver-transport-file:jar:1.1.1:compile
+[DEBUG]       org.apache.maven.resolver:maven-resolver-transport-http:jar:1.1.1:compile
+[DEBUG]          org.apache.httpcomponents:httpclient:jar:4.5.9:compile
+[DEBUG]             commons-codec:commons-codec:jar:1.11:compile
+[DEBUG]          org.apache.httpcomponents:httpcore:jar:4.4.11:compile
+[DEBUG]          org.slf4j:jcl-over-slf4j:jar:1.7.25:runtime
+[DEBUG]       org.jboss.logging:jboss-logging:jar:3.3.2.Final:compile
+[DEBUG]    io.quarkus:quarkus-devtools-common:jar:999-SNAPSHOT:compile
+[DEBUG]       io.quarkus:quarkus-devtools-common-core:jar:999-SNAPSHOT:compile
+[DEBUG]       io.undertow:undertow-websockets-jsr:jar:2.0.21.Final:compile
+[DEBUG]          io.undertow:undertow-core:jar:2.0.21.Final:compile
+[DEBUG]             org.jboss.xnio:xnio-api:jar:3.7.2.Final:compile
+[DEBUG]             org.jboss.xnio:xnio-nio:jar:3.7.2.Final:runtime
+[DEBUG]          io.undertow:undertow-servlet:jar:2.0.21.Final:compile
+[DEBUG]             org.jboss.spec.javax.servlet:jboss-servlet-api_4.0_spec:jar:1.0.0.Final:compile
+[DEBUG]          org.jboss.spec.javax.websocket:jboss-websocket-api_1.1_spec:jar:1.1.4.Final:compile
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.5.4:compile
+[DEBUG]       org.apache.maven:maven-model:jar:3.5.4:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:3.5.4:compile
+[DEBUG]       org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.3.3:compile
+[DEBUG]          javax.enterprise:cdi-api:jar:2.0.SP1:compile
+[DEBUG]             javax.el:javax.el-api:jar:3.0.0:compile
+[DEBUG]             javax.interceptor:javax.interceptor-api:jar:1.2:compile
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:3.0.24:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.5.2:compile
+[DEBUG]    org.apache.maven:maven-core:jar:3.5.4:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:3.5.4:compile
+[DEBUG]       org.apache.maven:maven-builder-support:jar:3.5.4:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:3.5.4:compile
+[DEBUG]       org.apache.maven:maven-model-builder:jar:3.5.4:compile
+[DEBUG]       org.apache.maven.resolver:maven-resolver-impl:jar:1.1.1:compile
+[DEBUG]       org.apache.maven.resolver:maven-resolver-api:jar:1.1.1:compile
+[DEBUG]       org.apache.maven.resolver:maven-resolver-spi:jar:1.1.1:compile
+[DEBUG]       org.apache.maven.resolver:maven-resolver-util:jar:1.1.1:compile
+[DEBUG]       org.apache.maven.shared:maven-shared-utils:jar:3.2.1:compile
+[DEBUG]          commons-io:commons-io:jar:2.5:compile
+[DEBUG]       org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.3.3:compile
+[DEBUG]       com.google.inject:guice:jar:no_aop:4.2.0:compile
+[DEBUG]          aopalliance:aopalliance:jar:1.0:compile
+[DEBUG]       com.google.guava:guava:jar:27.0.1-jre:compile
+[DEBUG]          com.google.guava:failureaccess:jar:1.0.1:compile
+[DEBUG]          com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[DEBUG]          com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[DEBUG]          org.checkerframework:checker-qual:jar:2.5.2:compile
+[DEBUG]          com.google.errorprone:error_prone_annotations:jar:2.2.0:compile
+[DEBUG]          com.google.j2objc:j2objc-annotations:jar:1.1:compile
+[DEBUG]          org.codehaus.mojo:animal-sniffer-annotations:jar:1.17:compile
+[DEBUG]       javax.inject:javax.inject:jar:1:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.7.1:compile
+[DEBUG]       org.apache.commons:commons-lang3:jar:3.8.1:compile
+[DEBUG]    org.apache.maven:maven-toolchain:jar:3.0-alpha-2:compile
+[DEBUG]       org.apache.maven:maven-compat:jar:3.0-alpha-2:compile
+[DEBUG]          org.codehaus.plexus:plexus-container-default:jar:1.0-beta-3.0.5:compile
+[DEBUG]             org.apache.xbean:xbean-reflect:jar:3.4:compile
+[DEBUG]                log4j:log4j:jar:1.2.17:compile
+[DEBUG]                commons-logging:commons-logging-api:jar:1.1:compile
+[DEBUG]             com.google.code.google-collections:google-collect:jar:snapshot-20080530:compile
+[DEBUG]             junit:junit:jar:4.12:compile
+[DEBUG]                org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]          org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-4:compile
+[DEBUG]    io.quarkus:quarkus-creator:jar:999-SNAPSHOT:compile
+[DEBUG]       io.quarkus:quarkus-core-deployment:jar:999-SNAPSHOT:compile
+[DEBUG]          commons-beanutils:commons-beanutils:jar:1.9.3:compile
+[DEBUG]             commons-logging:commons-logging:jar:1.2:compile
+[DEBUG]             commons-collections:commons-collections:jar:3.2.2:compile
+[DEBUG]          org.jboss.invocation:jboss-invocation:jar:1.5.2.Final:compile
+[DEBUG]          org.wildfly.common:wildfly-common:jar:1.5.0.Final-format-001:compile
+[DEBUG]          org.jboss.classfilewriter:jboss-classfilewriter:jar:1.2.4.Final:compile
+[DEBUG]          io.quarkus.gizmo:gizmo:jar:1.0.0.Alpha5:compile
+[DEBUG]             org.ow2.asm:asm-util:jar:7.1:compile
+[DEBUG]                org.ow2.asm:asm-tree:jar:7.1:compile
+[DEBUG]                org.ow2.asm:asm-analysis:jar:7.1:compile
+[DEBUG]          org.jboss:jandex:jar:2.1.1.Final:compile
+[DEBUG]          org.ow2.asm:asm:jar:7.1:compile
+[DEBUG]          io.quarkus:quarkus-core:jar:999-SNAPSHOT:compile
+[DEBUG]             javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[DEBUG]             io.smallrye:smallrye-config:jar:1.3.5:compile
+[DEBUG]                org.eclipse.microprofile.config:microprofile-config-api:jar:1.3:compile
+[DEBUG]                   org.osgi:org.osgi.annotation.versioning:jar:1.0.0:compile
+[DEBUG]             org.jboss.logging:jboss-logging-annotations:jar:2.1.0.Final:compile
+[DEBUG]             org.jboss.threads:jboss-threads:jar:3.0.0.Beta5:compile
+[DEBUG]             org.jboss.slf4j:slf4j-jboss-logging:jar:1.2.0.Final:compile
+[DEBUG]             org.wildfly.security:wildfly-elytron-ssl:jar:2.0.0.Alpha4:compile
+[DEBUG]                org.wildfly.security:wildfly-elytron-auth-server:jar:2.0.0.Alpha4:compile
+[DEBUG]                   org.wildfly.security:wildfly-elytron-permission:jar:2.0.0.Alpha4:compile
+[DEBUG]                org.wildfly.security:wildfly-elytron-base:jar:2.0.0.Alpha4:compile
+[DEBUG]                org.wildfly.security:wildfly-elytron-credential:jar:2.0.0.Alpha4:compile
+[DEBUG]                   org.wildfly.security:wildfly-elytron-keystore:jar:2.0.0.Alpha4:compile
+[DEBUG]                   org.wildfly.security:wildfly-elytron-provider-util:jar:2.0.0.Alpha4:compile
+[DEBUG]                org.wildfly.security:wildfly-elytron-auth:jar:2.0.0.Alpha4:compile
+[DEBUG]                org.wildfly.security:wildfly-elytron-util:jar:2.0.0.Alpha4:compile
+[DEBUG]                org.wildfly.security:wildfly-elytron-x500:jar:2.0.0.Alpha4:compile
+[DEBUG]             org.wildfly.security:wildfly-elytron-x500-cert:jar:2.0.0.Alpha4:compile
+[DEBUG]                org.wildfly.security:wildfly-elytron-asn1:jar:2.0.0.Alpha4:compile
+[DEBUG]                org.wildfly.security:wildfly-elytron-x500-cert-util:jar:2.0.0.Alpha4:compile
+[DEBUG]          io.quarkus:quarkus-builder:jar:999-SNAPSHOT:compile
+[DEBUG]          org.graalvm.sdk:graal-sdk:jar:19.1.1:compile
+[DEBUG]    io.quarkus:quarkus-development-mode:jar:999-SNAPSHOT:compile
+[DEBUG]       org.jboss.logmanager:jboss-logmanager-embedded:jar:1.0.3:compile
+[DEBUG]    org.apache.maven.shared:maven-artifact-transfer:jar:0.10.0:compile
+[DEBUG]       org.apache.maven.shared:maven-common-artifact-filters:jar:3.0.1:compile
+[DEBUG]          org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile
+[DEBUG]             org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile
+[DEBUG]                org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile
+[DEBUG]       org.slf4j:slf4j-api:jar:1.7.25:compile
+[DEBUG]    jline:jline:jar:2.14.6:compile
+[DEBUG]    com.fasterxml.jackson.core:jackson-databind:jar:2.9.9:compile
+[DEBUG]       com.fasterxml.jackson.core:jackson-annotations:jar:2.9.9:compile
+[DEBUG]       com.fasterxml.jackson.core:jackson-core:jar:2.9.9:compile
+[DEBUG]    org.twdata.maven:mojo-executor:jar:2.3.0:compile
+[DEBUG]       org.slf4j:slf4j-simple:jar:1.7.25:test
+[DEBUG] Created new class realm plugin>io.quarkus:quarkus-maven-plugin:999-SNAPSHOT
+[DEBUG] Importing foreign packages into class realm plugin>io.quarkus:quarkus-maven-plugin:999-SNAPSHOT
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>io.quarkus:quarkus-maven-plugin:999-SNAPSHOT
+[DEBUG]   Included: io.quarkus:quarkus-maven-plugin:jar:999-SNAPSHOT
+[DEBUG]   Included: io.quarkus:quarkus-bootstrap-core:jar:999-SNAPSHOT
+[DEBUG]   Included: org.apache.maven:maven-embedder:jar:3.5.4
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.24
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.4
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.apache.maven.resolver:maven-resolver-connector-basic:jar:1.1.1
+[DEBUG]   Included: org.apache.maven.resolver:maven-resolver-transport-file:jar:1.1.1
+[DEBUG]   Included: org.apache.maven.resolver:maven-resolver-transport-http:jar:1.1.1
+[DEBUG]   Included: org.apache.httpcomponents:httpclient:jar:4.5.9
+[DEBUG]   Included: commons-codec:commons-codec:jar:1.11
+[DEBUG]   Included: org.apache.httpcomponents:httpcore:jar:4.4.11
+[DEBUG]   Included: org.slf4j:jcl-over-slf4j:jar:1.7.25
+[DEBUG]   Included: org.jboss.logging:jboss-logging:jar:3.3.2.Final
+[DEBUG]   Included: io.quarkus:quarkus-devtools-common:jar:999-SNAPSHOT
+[DEBUG]   Included: io.quarkus:quarkus-devtools-common-core:jar:999-SNAPSHOT
+[DEBUG]   Included: io.undertow:undertow-websockets-jsr:jar:2.0.21.Final
+[DEBUG]   Included: io.undertow:undertow-core:jar:2.0.21.Final
+[DEBUG]   Included: org.jboss.xnio:xnio-api:jar:3.7.2.Final
+[DEBUG]   Included: org.jboss.xnio:xnio-nio:jar:3.7.2.Final
+[DEBUG]   Included: io.undertow:undertow-servlet:jar:2.0.21.Final
+[DEBUG]   Included: org.jboss.spec.javax.servlet:jboss-servlet-api_4.0_spec:jar:1.0.0.Final
+[DEBUG]   Included: org.jboss.spec.javax.websocket:jboss-websocket-api_1.1_spec:jar:1.1.4.Final
+[DEBUG]   Included: javax.enterprise:cdi-api:jar:2.0.SP1
+[DEBUG]   Included: javax.el:javax.el-api:jar:3.0.0
+[DEBUG]   Included: javax.interceptor:javax.interceptor-api:jar:1.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.24
+[DEBUG]   Included: org.apache.maven:maven-builder-support:jar:3.5.4
+[DEBUG]   Included: org.apache.maven.resolver:maven-resolver-util:jar:1.1.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.2.1
+[DEBUG]   Included: commons-io:commons-io:jar:2.5
+[DEBUG]   Included: org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.3.3
+[DEBUG]   Included: com.google.inject:guice:jar:no_aop:4.2.0
+[DEBUG]   Included: aopalliance:aopalliance:jar:1.0
+[DEBUG]   Included: com.google.guava:guava:jar:27.0.1-jre
+[DEBUG]   Included: com.google.guava:failureaccess:jar:1.0.1
+[DEBUG]   Included: com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:3.0.2
+[DEBUG]   Included: org.checkerframework:checker-qual:jar:2.5.2
+[DEBUG]   Included: com.google.errorprone:error_prone_annotations:jar:2.2.0
+[DEBUG]   Included: com.google.j2objc:j2objc-annotations:jar:1.1
+[DEBUG]   Included: org.codehaus.mojo:animal-sniffer-annotations:jar:1.17
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.7.1
+[DEBUG]   Included: org.apache.commons:commons-lang3:jar:3.8.1
+[DEBUG]   Included: org.apache.xbean:xbean-reflect:jar:3.4
+[DEBUG]   Included: log4j:log4j:jar:1.2.17
+[DEBUG]   Included: commons-logging:commons-logging-api:jar:1.1
+[DEBUG]   Included: com.google.code.google-collections:google-collect:jar:snapshot-20080530
+[DEBUG]   Included: junit:junit:jar:4.12
+[DEBUG]   Included: org.hamcrest:hamcrest-core:jar:1.3
+[DEBUG]   Included: io.quarkus:quarkus-creator:jar:999-SNAPSHOT
+[DEBUG]   Included: io.quarkus:quarkus-core-deployment:jar:999-SNAPSHOT
+[DEBUG]   Included: commons-beanutils:commons-beanutils:jar:1.9.3
+[DEBUG]   Included: commons-logging:commons-logging:jar:1.2
+[DEBUG]   Included: commons-collections:commons-collections:jar:3.2.2
+[DEBUG]   Included: org.jboss.invocation:jboss-invocation:jar:1.5.2.Final
+[DEBUG]   Included: org.wildfly.common:wildfly-common:jar:1.5.0.Final-format-001
+[DEBUG]   Included: org.jboss.classfilewriter:jboss-classfilewriter:jar:1.2.4.Final
+[DEBUG]   Included: io.quarkus.gizmo:gizmo:jar:1.0.0.Alpha5
+[DEBUG]   Included: org.ow2.asm:asm-util:jar:7.1
+[DEBUG]   Included: org.ow2.asm:asm-tree:jar:7.1
+[DEBUG]   Included: org.ow2.asm:asm-analysis:jar:7.1
+[DEBUG]   Included: org.jboss:jandex:jar:2.1.1.Final
+[DEBUG]   Included: org.ow2.asm:asm:jar:7.1
+[DEBUG]   Included: io.quarkus:quarkus-core:jar:999-SNAPSHOT
+[DEBUG]   Included: javax.annotation:javax.annotation-api:jar:1.3.2
+[DEBUG]   Included: io.smallrye:smallrye-config:jar:1.3.5
+[DEBUG]   Included: org.eclipse.microprofile.config:microprofile-config-api:jar:1.3
+[DEBUG]   Included: org.osgi:org.osgi.annotation.versioning:jar:1.0.0
+[DEBUG]   Included: org.jboss.logging:jboss-logging-annotations:jar:2.1.0.Final
+[DEBUG]   Included: org.jboss.threads:jboss-threads:jar:3.0.0.Beta5
+[DEBUG]   Included: org.jboss.slf4j:slf4j-jboss-logging:jar:1.2.0.Final
+[DEBUG]   Included: org.wildfly.security:wildfly-elytron-ssl:jar:2.0.0.Alpha4
+[DEBUG]   Included: org.wildfly.security:wildfly-elytron-auth-server:jar:2.0.0.Alpha4
+[DEBUG]   Included: org.wildfly.security:wildfly-elytron-permission:jar:2.0.0.Alpha4
+[DEBUG]   Included: org.wildfly.security:wildfly-elytron-base:jar:2.0.0.Alpha4
+[DEBUG]   Included: org.wildfly.security:wildfly-elytron-credential:jar:2.0.0.Alpha4
+[DEBUG]   Included: org.wildfly.security:wildfly-elytron-keystore:jar:2.0.0.Alpha4
+[DEBUG]   Included: org.wildfly.security:wildfly-elytron-provider-util:jar:2.0.0.Alpha4
+[DEBUG]   Included: org.wildfly.security:wildfly-elytron-auth:jar:2.0.0.Alpha4
+[DEBUG]   Included: org.wildfly.security:wildfly-elytron-util:jar:2.0.0.Alpha4
+[DEBUG]   Included: org.wildfly.security:wildfly-elytron-x500:jar:2.0.0.Alpha4
+[DEBUG]   Included: org.wildfly.security:wildfly-elytron-x500-cert:jar:2.0.0.Alpha4
+[DEBUG]   Included: org.wildfly.security:wildfly-elytron-asn1:jar:2.0.0.Alpha4
+[DEBUG]   Included: org.wildfly.security:wildfly-elytron-x500-cert-util:jar:2.0.0.Alpha4
+[DEBUG]   Included: io.quarkus:quarkus-builder:jar:999-SNAPSHOT
+[DEBUG]   Included: org.graalvm.sdk:graal-sdk:jar:19.1.1
+[DEBUG]   Included: io.quarkus:quarkus-development-mode:jar:999-SNAPSHOT
+[DEBUG]   Included: org.jboss.logmanager:jboss-logmanager-embedded:jar:1.0.3
+[DEBUG]   Included: org.apache.maven.shared:maven-artifact-transfer:jar:0.10.0
+[DEBUG]   Included: org.apache.maven.shared:maven-common-artifact-filters:jar:3.0.1
+[DEBUG]   Included: org.sonatype.sisu:sisu-inject-bean:jar:1.4.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7
+[DEBUG]   Included: jline:jline:jar:2.14.6
+[DEBUG]   Included: com.fasterxml.jackson.core:jackson-databind:jar:2.9.9
+[DEBUG]   Included: com.fasterxml.jackson.core:jackson-annotations:jar:2.9.9
+[DEBUG]   Included: com.fasterxml.jackson.core:jackson-core:jar:2.9.9
+[DEBUG]   Included: org.twdata.maven:mojo-executor:jar:2.3.0
+[DEBUG] Configuring mojo io.quarkus:quarkus-maven-plugin:999-SNAPSHOT:dev from plugin realm ClassRealm[plugin>io.quarkus:quarkus-maven-plugin:999-SNAPSHOT, parent: java.net.URLClassLoader@72ea2f77]
+[DEBUG] Configuring mojo 'io.quarkus:quarkus-maven-plugin:999-SNAPSHOT:dev' with basic configurator -->
+[DEBUG]   (f) buildDir = /home/michael/API/SummerPractise/jdbc-driver/jdbctest/target
+[DEBUG]   (f) deleteDevJar = true
+[DEBUG]   (f) outputDirectory = /home/michael/API/SummerPractise/jdbc-driver/jdbctest/target/classes
+[DEBUG]   (f) project = MavenProject: org.acme:jdbctest:1.0-SNAPSHOT @ /home/michael/API/SummerPractise/jdbc-driver/jdbctest/pom.xml
+[DEBUG]   (f) repoSession = org.eclipse.aether.DefaultRepositorySystemSession@336880df
+[DEBUG]   (f) repos = [maven.oracle.com (https://maven.oracle.com, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@ba1f559
+[DEBUG]   (f) sourceDir = /home/michael/API/SummerPractise/jdbc-driver/jdbctest/src/main/java
+[DEBUG] -- end configuration --
+[DEBUG] Detected Maven Version: 3.6.1
+[DEBUG] Detected Maven Version (3.6.1)  is allowed in [3.5.3,).
+[DEBUG] Using javaTool: /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=180614, ConflictMarker.markTime=84206, ConflictMarker.nodeCount=157, ConflictIdSorter.graphTime=109690, ConflictIdSorter.topsortTime=1266757, ConflictIdSorter.conflictIdCount=59, ConflictIdSorter.conflictIdCycleCount=1, ConflictResolver.totalTime=1349452, ConflictResolver.conflictItemCount=133, DefaultDependencyCollector.collectTime=4294868, DefaultDependencyCollector.transformTime=3009101}
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-resteasy:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-undertow:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-arc:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus.arc:arc:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-core:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-resteasy-server-common:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-resteasy-common:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-jaxb:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-jdbc-oracle:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-resteasy-deployment:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-resteasy-deployment:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-resteasy-server-common-deployment:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-resteasy-server-common-deployment:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-resteasy-common-deployment:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-resteasy-common-deployment:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-arc-deployment:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-arc-deployment:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus.arc:arc-processor:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus.arc:arc-processor:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-jaxb-deployment:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-jaxb-deployment:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
+[DEBUG] Cannot access maven.oracle.com (https://maven.oracle.com) in offline mode and the metadata io.quarkus:quarkus-undertow-deployment:999-SNAPSHOT/maven-metadata.xml has not been downloaded from it before
