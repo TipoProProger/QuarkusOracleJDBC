@@ -20,6 +20,7 @@
         <dependency>
             <groupId>io.quarkus</groupId>
             <artifactId>quarkus-jdbc-oracle-extern</artifactId>
+            <version>999-SNAPSHOT</version>
         </dependency>
     </dependencies>
 

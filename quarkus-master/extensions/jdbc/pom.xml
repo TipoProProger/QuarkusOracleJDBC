@@ -19,7 +19,7 @@
         <module>jdbc-mariadb</module>
         <module>jdbc-mssql</module>
         <module>jdbc-oracle</module>
-        <module>jdbc-orcale-extern</module>
+        <module>jdbc-oracle-extern</module>
     </modules>
 
 </project>
